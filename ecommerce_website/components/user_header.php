@@ -36,54 +36,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ecommerce Navbar Design</title>
     <style>
-.main-navbar{
-    border-bottom: 1px solid #ccc;
-}
-.main-navbar .top-navbar{
-    background-color: #2874f0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.main-navbar .top-navbar .brand-name{
-    color: #fff;
-}
-.main-navbar .top-navbar .nav-link{
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-}
-.main-navbar .top-navbar .dropdown-menu{
-    padding: 0px 0px;
-    border-radius: 0px;
-}
-.main-navbar .top-navbar .dropdown-menu .dropdown-item{
-    padding: 8px 16px;
-    border-bottom: 1px solid #ccc;
-    font-size: 14px;
-}
-.main-navbar .top-navbar .dropdown-menu .dropdown-item i{
-    width: 20px;
-    text-align: center;
-    color: #2874f0;
-    font-size: 14px;
-}
-.main-navbar .navbar{
-    padding: 0px;
-    background-color: #ddd;
-}
-.main-navbar .navbar .nav-item .nav-link{
-    padding: 8px 20px;
-    color: #000;
-    font-size: 15px;
-}
+      .main-navbar{
+          border-bottom: 1px solid #ccc;
+      }
+      .main-navbar .top-navbar{
+          background-color: #2874f0;
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .main-navbar .top-navbar .brand-name{
+          color: #fff;
+      }
+      .main-navbar .top-navbar .nav-link{
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500;
+      }
+      .main-navbar .top-navbar .dropdown-menu{
+          padding: 0px 0px;
+          border-radius: 0px;
+      }
+      .main-navbar .top-navbar .dropdown-menu .dropdown-item{
+          padding: 8px 16px;
+          border-bottom: 1px solid #ccc;
+          font-size: 14px;
+      }
+      .main-navbar .top-navbar .dropdown-menu .dropdown-item i{
+          width: 20px;
+          text-align: center;
+          color: #2874f0;
+          font-size: 14px;
+      }
+      .main-navbar .navbar{
+          padding: 0px;
+          background-color: #ddd;
+      }
+      .main-navbar .navbar .nav-item .nav-link{
+          padding: 8px 20px;
+          color: #000;
+          font-size: 15px;
+      }
 
-@media only screen and (max-width: 600px) {
-    .main-navbar .top-navbar .nav-link{
-        font-size: 12px;
-        padding: 8px 10px;
-    }
-}
-
+      @media only screen and (max-width: 600px) {
+          .main-navbar .top-navbar .nav-link{
+              font-size: 12px;
+              padding: 8px 10px;
+          }
+      }
     </style>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -99,27 +98,26 @@
                     <h5 class="brand-name">Funda Ecom</h5>
                 </div>
                 <div class="col-md-5 my-auto">
-    <form role="search" class="d-flex align-items-center justify-content-center">
-        <input type="search" placeholder="Search your product" class="form-control" />
-        <div class="input-group-append">
-            <button class="btn btn-primary" type="submit" style="height: 100%;">
-                <i class="fa fa-search"></i>
-            </button>
-        </div>
-    </form>
-</div>
-
+                  <form role="search" class="d-flex align-items-center justify-content-center" action="search_page.php">
+                      <input type="search" placeholder="Search your product" class="form-control" />
+                      <div class="input-group-append">
+                          <button class="btn btn-primary" type="submit" style="height: 100%;">
+                              <i class="fa fa-search"></i>
+                          </button>
+                      </div>
+                  </form>
+              </div>
 
                 <div class="col-md-5 my-auto">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="fa fa-shopping-cart"></i> Cart (0)
+                            <a class="nav-link" href="cart.php">
+                                <i class="fa fa-shopping-cart"></i> Cart <span>(<?= $total_cart_counts; ?>)</span></a>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="fa fa-heart"></i> Wishlist (0)
+                            <a class="nav-link" href="wishlist.php">
+                                <i class="fa fa-heart"></i> Wishlist <span>(<?= $total_wishlist_counts; ?>)</span></a>
                             </a>
                         </li>
                         <li class="nav-item dropdown">
@@ -155,31 +153,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="home.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">All Categories</a>
+                        <a class="nav-link" href="about.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">New Arrivals</a>
+                        <a class="nav-link" href="shop.php">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Featured Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Electronics</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Fashions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Accessories</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Appliances</a>
+                        <a class="nav-link" href="cart.php">Cart</a>
                     </li>
                 </ul>
             </div>
