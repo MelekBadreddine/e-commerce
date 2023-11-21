@@ -28,6 +28,9 @@ if(isset($_SESSION['user_id'])){
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
    
@@ -60,8 +63,8 @@ if(isset($_SESSION['user_id'])){
    <div class="swiper-wrapper">
 
       <div class="swiper-slide slide">
-         <img src="images/pic-1.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/sofien.png" alt="">
+         <p>I recently purchased a laptop from ElectroSphere and I’m extremely satisfied with my purchase. The laptop is high-performance and perfect for my needs. The customer service was also top-notch. Highly recommend!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -69,12 +72,12 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Sofien Khemakhem</h3>
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/pic-2.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/naim.png" alt="">
+         <p>ElectroSphere is my go-to for all my electronic needs. I bought a smartphone and a washing machine from them and both are working flawlessly. Their products are reliable and their service is unbeatable.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -82,12 +85,12 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Naim Benamar</h3>
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/pic-3.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/abdellatif.png" alt="">
+         <p>I bought a fridge from ElectroSphere and it’s the best investment I’ve made. The fridge is energy-efficient and spacious. ElectroSphere’s delivery and installation service was prompt and hassle-free.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -95,12 +98,12 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Si Abdellatif</h3>
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/pic-4.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/riadh.png" alt="">
+         <p>ElectroSphere offers a wide range of TVs and I found one that fits perfectly in my living room. The picture quality is amazing and the sound is just perfect. I’m very happy with my purchase</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -108,12 +111,12 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Riadh BH</h3>
       </div>
 
       <div class="swiper-slide slide">
          <img src="images/pic-5.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <p>I purchased a camera from ElectroSphere for my photography hobby and I’m impressed with the quality of the product. The camera captures stunning photos and is easy to use. Kudos to ElectroSphere for their excellent range of products.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -126,7 +129,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="swiper-slide slide">
          <img src="images/pic-6.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <p>ElectroSphere is a one-stop-shop for all electronic appliances. I furnished my entire house with their products and each one of them is working perfectly. Their after-sales service is commendable. Highly recommended!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>

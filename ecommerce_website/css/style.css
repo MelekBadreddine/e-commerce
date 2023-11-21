@@ -63,6 +63,12 @@ section {
   text-transform: uppercase;
 }
 
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
 .btn,
 .delete-btn,
 .option-btn {
@@ -178,17 +184,6 @@ section {
 
 .header .flex .logo span {
   color: var(--main-color);
-}
-
-.header .flex .navbar a {
-  margin: 0 1rem;
-  font-size: 2rem;
-  color: var(--black);
-}
-
-.header .flex .navbar a:hover {
-  color: var(--main-color);
-  text-decoration: underline;
 }
 
 .header .flex .icons > * {
@@ -736,38 +731,6 @@ section {
   resize: none;
 }
 
-.search-form form {
-  display: flex;
-  gap: 1rem;
-}
-
-.search-form form input {
-  width: 100%;
-  border: var(--border);
-  border-radius: 0.5rem;
-  background-color: var(--white);
-  box-shadow: var(--box-shadow);
-  padding: 1.4rem;
-  font-size: 1.8rem;
-  color: var(--black);
-}
-
-.search-form form button {
-  font-size: 2.5rem;
-  height: 5.5rem;
-  line-height: 5.5rem;
-  background-color: var(--main-color);
-  cursor: pointer;
-  color: var(--white);
-  border-radius: 0.5rem;
-  width: 6rem;
-  text-align: center;
-}
-
-.search-form form button:hover {
-  background-color: var(--black);
-}
-
 .wishlist-total {
   max-width: 50rem;
   margin: 0 auto;
@@ -938,10 +901,9 @@ section {
 .orders .box-container .box p span {
   color: var(--main-color);
 }
-
 .footer-area {
   padding: 40px 0px;
-  background-color: #2874f0;
+  background-color: #7752fe;
   color: #fff;
 }
 .footer-area a {
@@ -1005,27 +967,6 @@ section {
     display: inline-block;
   }
 
-  .header .flex .navbar {
-    position: absolute;
-    top: 99%;
-    left: 0;
-    right: 0;
-    border-top: var(--border);
-    border-bottom: var(--border);
-    background-color: var(--white);
-    transition: 0.2s linear;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-
-  .header .flex .navbar.active {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  }
-
-  .header .flex .navbar a {
-    display: block;
-    margin: 2rem;
-  }
-
   .home-bg .home .slide .content {
     text-align: center;
   }
@@ -1061,38 +1002,46 @@ section {
 .main-navbar {
   border-bottom: 1px solid #ccc;
 }
+
 .main-navbar .top-navbar {
-  background-color: #2874f0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: #7752fe;
+  padding: 10px 0;
 }
+
 .main-navbar .top-navbar .brand-name {
   color: #fff;
 }
+
 .main-navbar .top-navbar .nav-link {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
+  padding: 8px 20px;
 }
+
 .main-navbar .top-navbar .dropdown-menu {
-  padding: 0px 0px;
-  border-radius: 0px;
+  padding: 0;
+  border-radius: 0;
 }
+
 .main-navbar .top-navbar .dropdown-menu .dropdown-item {
   padding: 8px 16px;
   border-bottom: 1px solid #ccc;
   font-size: 14px;
 }
+
 .main-navbar .top-navbar .dropdown-menu .dropdown-item i {
   width: 20px;
   text-align: center;
-  color: #2874f0;
+  color: #7752fe;
   font-size: 14px;
 }
+
 .main-navbar .navbar {
-  padding: 0px;
+  padding: 0;
   background-color: #ddd;
 }
+
 .main-navbar .navbar .nav-item .nav-link {
   padding: 8px 20px;
   color: #000;
@@ -1104,4 +1053,26 @@ section {
     font-size: 12px;
     padding: 8px 10px;
   }
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  padding-right: 40px; /* Adjust the padding to accommodate the button */
+  border-radius: 15px;
+}
+
+.search-button {
+  position: absolute;
+  right: 30px; /* Adjust the button's position as needed */
+  top: 30%;
+  transform: translateY(-60%);
+  z-index: 1; /* Ensure button appears above the input field */
+  background: transparent;
+}
+
+footer {
+  margin-top: auto;
 }

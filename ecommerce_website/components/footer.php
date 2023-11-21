@@ -1,4 +1,3 @@
-
     <footer>
     <div class="footer-area">
             <div class="container">
@@ -33,17 +32,17 @@
                         <div class="footer-underline"></div>
                         <div class="mb-2">
                             <p>
-                                <i class="fa fa-map-marker"></i> #444, some main road, some area, some street, bangalore, india - 560077
+                                <i class="fa fa-map-marker"></i> National School of Engineers of Sfax
                             </p>
                         </div>
                         <div class="mb-2">
                             <a href="" class="text-white">
-                                <i class="fa fa-phone"></i> +91 888-XXX-XXXX
+                                <i class="fa fa-phone"></i> +216 XX XXX XXXX
                             </a>
                         </div>
                         <div class="mb-2">
                             <a href="" class="text-white">
-                                <i class="fa fa-envelope"></i> fundaofwebit@gmail.com
+                                <i class="fa fa-envelope"></i> enis@enis.tn
                             </a>
                         </div>
                     </div>
@@ -62,7 +61,7 @@
                             <a href=""><i class="fa fa-facebook"></i></a>
                             <a href=""><i class="fa fa-twitter"></i></a>
                             <a href=""><i class="fa fa-instagram"></i></a>
-                            <a href=""><i class="fa fa-youtube"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
